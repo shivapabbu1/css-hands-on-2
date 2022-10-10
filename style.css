@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./web_background.jpg)
+}
+#body {
+
+    border: 10px;
+    border-style: groove;
+    border-color: red;
+}
+
+#first-div {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+#coverd {
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;    
+    border: 10px solid tomato;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    text-align: center;
+
+}
+#cover-by {
+    width: 650px;
+    height: 75px;
+    margin-top: 45px;
+    margin-left: -165px;
+    border: 10px solid tomato;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 25px;
+
+}
+#corner {
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 300px;
+    border: 10px solid tomato;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 45px;
+    text-align: center;
+
+}
+
+#circle-form {
+    display: flex;
+}
+
+#circle {
+    height: 360px;
+    width: 460px;
+    border-radius: 50%;
+    border: 10px solid rgb(31, 60, 31);
+    background-color: rgb(73, 97, 73);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#form {
+    border: 10px dashed red;
+    width: 500px;
+    height: 700px;
+    margin-left: 150px;
+    text-align: center;
+    background-color: white;
+    color: rgb(200, 100, 100);
+    font-weight: bold;
+}
+
+.agedate {
+    width: 160px;
+}
+
+
+
+#menu {
+    border: 8px solid tomato;
+    border-radius: 45px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 50%;
+    padding-bottom: 21px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+#menu-box {
+    display: flex;
+    flex-wrap: wrap; 
+    padding-bottom: 20px; 
+}
+.food-menu {
+    border: 5px solid tomato;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    margin: 60px;
+    background-color: cyan;
+    color: purple;
+    text-align: center;
+
+}
+
+#desert {
+    border: 5px solid tomato;
+    width: 350px;
+    height: 420px;
+    border-radius: 30px;
+    margin: 60px;
+    margin-bottom: 70px;
+    background-color: cyan;
+    color: purple;
+    text-align: center;
+
+    
+}
+
+li {
+    padding-left: 2em;
+}
+
+.hbold {
+    font-size: 38px;
+}
+.bold {
+    font-size: 20px;
+}
